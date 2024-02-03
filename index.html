@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myform" class="form">
+            <h1>สมัครสมาชิก</h1>
+            <div class="form-control">
+                <label for="username">ชื่อผู้ใช้</label>
+                <input type="text" name="username" placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">อีเมล</label>
+                <input type="text" name="email" placeholder="Enter Email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" name="password" placeholder="Enter Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="confirmpassword">ยืนยันรหัสผ่าน</label>
+                <input type="password" name="confirmpassword" placeholder="Enter confirmpassword">
+                <small>Error Message</small>
+            </div>
+            <button>บันทึก</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
